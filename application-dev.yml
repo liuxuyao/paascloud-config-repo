@@ -16,10 +16,10 @@ spring:
     host: 103.246.114.116
     port: 5672
     username: winmax
-    password: 12345678
+    password: '12345678'
   redis:
     host: 103.248.22.86
-    password: !QAZ2wsx
+    password: '!QAZ2wsx'
     port: 6379
     timeout: 0
   datasource:
