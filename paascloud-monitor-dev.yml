@@ -13,7 +13,7 @@ spring:
       notify:
         mail:
           to: liuxuyaoo@163.com
-          from: liuxuyaose@163.com
+          from: liuxuyaoo@163.com
       turbine:
         clusters: default
         location: paascloud-monitor
