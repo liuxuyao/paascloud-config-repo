@@ -12,9 +12,9 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 103.246.114.116:5672
-      username: winmax
-      password: '12345678'
+      addresses: '{cipher}AIB38bYLkVZMv91Czc7VNQkLtL8tXI1s7W0Nff8JKE2EKVeCh/YWdYjn6Ew3OGZMuEeaFxcwI8nIjhvz+I1KuliP/9yD+smAdyLSDDSnOlgZsu7H+OPtNyq0YTK6WdjscJsXa9wRJ2SpWYyU9q3eONDqqu58xaDq+2zCuo3LpKQTgMjhlEXbGO5zAZTRKkGM6F7EGq6L/gx/HTJwabUT8mTCNeIKy7nL8M5gy1yk33Ti1A=='
+      username: '{cipher}AIB3N1xW3v9YWAsCn03c7P9qMsnZq5ZNcyGiWQeBexqDkMIcl9kPp2sT4bFUp4yAwErmw9KdbEeVrfmSz8O8xrdeZLwyEAJGWrx6qJ5C+fFGQvt6tZWX9KCNGaBRpW3/CF+fDJ2jhQjCJdJoHP8z3IqeSSJb5OGYi8JPKg4mApADqg7r8KH5WiCjZQVOgDIi0bhzkI32RP0N2d235TBvqFXZ'
+      password: '{cipher}AIA7zqIpChvzcaKe8FCD1jWIrxD1cbI8BdPl+3RdGpfdOtuTUjhFYzh8vpKzPln55E17Z/FT6TA/vHuDwoiJTHhKWM7kaY5dR5UDX06KAZxuxOQbcs4UzxK38GZLpAo4LffM8iWssNHtB2IqoJydYFtJWb7Mex/mw+txmfwbe4oxQr45SLWIubV+IwAHd1vFybbKqucP+nZHS5HuSUNuZ19f'
       queue: zipkin
   storage:
     type: mysql
