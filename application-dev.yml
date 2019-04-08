@@ -13,13 +13,13 @@ spring:
     proxy-target-class: true
     auto: true
   rabbitmq:
-    host: 103.246.114.116
+    host: '{cipher}AIBGzLOA/wU/G8RgIR7giqkcWbI8N8tndgfLFZ8m0DEfL5GAkdMXgbZegCSYjBieoNiXMkoWZK/qo3GTClps/EYTWck4x5FQFUg8RYIk9u24v9oknGlANe/1ej3qDtpWzjufxfueKCiCWxNE4q3NEImJwH/SfbF7Cyuk2HLsCaabB7f7jIfy6RiAAbsf6Rdgitcltd85dOz2uMpOieijlvC+'
     port: 5672
-    username: winmax
-    password: '12345678'
+    username: '{cipher}AICgFqwvVu29HJjaOiVX69JxSzX1BJA8VSmiqzN0yVpkKBlo6N15SEshJTR/5wpQ1oNtCv7UgU7bX14ThirDMqecJcWcCLb+9a8HZoaJECvs8jH7VHM86yUH/5LL0oHRf+6pxT989KvkHg0JMDRl1pLi6BtqflvvxHqVvB9tDQW39ZvLjC/y+WI1mVVV3gUemUuYQNoWhF2Oy5LHbuPLSXX9'
+    password: '{cipher}AIA261ei8T7M6lEuyhuiGEn3Bq9COu8zkIg9mO8QXOOiL2RIIoIJZFmWx+haRYxt5vVx6i2pUZhnctgHAlZCuYCZ1fsMW3mHJd5uEpiaId1fV2QYwGOOsWIdsTLahFOIIuIU6f08jqhHnYx3/tkxUZsXRKRdqmiuru3H/ICnp5QiiNiTqd3ZUkmVlKIl1FlLp/hhMSsuDCHvQCWa0FPgxoiV'
   redis:
-    host: 103.248.22.86
-    password: '!QAZ2wsx'
+    host: '{cipher}AIAPXGwOZt3lsWBb5WlJ80g+JIibOgui0OL2nP/mN3K123yjdE854x7hZ+m0tEN26wCvbAalFzrz70lzY8BUDeECy2uFpfusPPc/cvjNNu+QMS4dtbuer2KkE48xcNbUs74OzwJpJWcQvIAZ+hkpl3f0GT49QZbN/tLsLlmxzo/aBZlWUhPsqr5aHwv9/cWrzPMIZc+uRQSQV1f7OEN/Bp5l'
+    password: '{cipher}AICsQ9sNGiPvHkOLLhNgLCihGO39FBCcZ5FMOJ1eTLTQpeBezlGRA0pMnSDEykAky+ueQjCmqSQM73eIfla7aJC/F87Zm7vOCygVqapOOSAMWOT0mlEcte4F6ntryuBQAX4bLIL7sjF92jM7412Wxqs9Bhpu+AcezkSSA5DdA3kxQF1F42RTX8RHy6CG06xRvc9lzANSd7QjvNEuy6x6+3i7'
     port: 6379
     timeout: 0
   datasource:
@@ -41,7 +41,7 @@ spring:
   mail:
     host: smtp.163.com
     username: liuxuyaoo@163.com
-    password: 'liu123'
+    password: '{cipher}AICEUhosuPnlTovsXU5wZPh+SsXGqT8dR7ao66QfSwQ6SMf82sXvN8RaVM1EMpIhnpVjCmKKIqwaxTvdQD9FPXB0FXqlCu4paABs0Vqlyq7yAMf7L7YtUtWioPd2sT+tU1J+ZQCpH5OABT2A3vMbzfP/6seeFXPyC6WAzdboNyGj2TpU4yLMj1LelNyu/E+jEcIybml8zdZ58Wm7iGz+I00V'
     port: 465
     protocol: smtp
     test-connection: false
