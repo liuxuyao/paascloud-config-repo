@@ -70,7 +70,7 @@ paascloud:
       clientAuthenticationScheme: header
       tokenStore: jwt
   zk:
-    zkAddressList: 103.246.114.116:2181
+    zkAddressList: '{cipher}AIBUqhBS78lgXTTO+4TkLcVeNyB5iJidRJWwjPZROCcGPJTxBgKunIqQZyJSm68niu0OELfuLNl9VF12p1U6qoxwGcqqvxj9zJLsKVr/u2xr3ml6mPscj21dtKAfxWAguHD2XNJkVPsyayivXgPSjZdcKjEFs4r6QDz5LaBaj+uKkaWSLx/0/454uvTnIEe1Y4sA7m9PnF/IHyTaIFZcsPGnQNpSwQ+NwzVTpJJLjb2BQw=='
     namespace: paascloud-elastic-job
   job:
     task:
